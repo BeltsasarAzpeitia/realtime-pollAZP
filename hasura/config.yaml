@@ -1,0 +1,11 @@
+   version: 3
+endpoint: https://selected-mongrel-44.hasura.app
+metadata_directory: metadata
+migrations_directory: migrations
+seeds_directory: seeds
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: https://selected-mongrel-44.hasura.app
+  codegen:
+    framework: ""
+    output_dir: ""
